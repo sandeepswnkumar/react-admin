@@ -1,0 +1,23 @@
+.customer-feeback {}
+
+/* width */
+.customer-feeback::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.customer-feeback::-webkit-scrollbar-track {
+    background: transparent;
+    
+}
+
+/* Handle */
+.customer-feeback::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+.customer-feeback::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
